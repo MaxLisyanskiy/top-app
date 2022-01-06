@@ -31,3 +31,17 @@
 .ghost:hover {
 	background-color: var(--gray-light-hover);
 }
+
+.arrow {
+	display: inline-block;
+
+	margin-left: 10px;
+}
+
+.down {
+	transform: rotate(90deg);
+}
+
+.primary svg {
+	fill: var(--white);
+}
